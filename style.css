@@ -1,0 +1,268 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+body{
+  font-family:'Merriweather',serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.capLetters{
+  text-transform:uppercase;
+}
+
+.matchMaker-header {
+  align-items:center;
+  display:flex;
+  height:50px;
+  justify-content: space-between;
+  background-color:black;
+
+}
+
+.matchMaker-logo-container>p{
+  padding:20px;
+}
+
+.matchMaker-nav {
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  font-size: 15px;
+  color:white;
+}
+
+.matchMaker-nav > ul{
+  display:flex;
+  justify-content:flex-end;
+  list-style-type:none;
+  padding:20px;
+}
+
+.matchMaker-nav-element >a, .matchMaker-nav-element:link>a{
+  display:flex;
+  justify-content:flex-end;
+  padding:15px;
+  color:white;
+  text-decoration:none;
+
+}
+
+.matchMaker-nav-element:hover >a{
+  color:yellow;
+  text-decoration:none;
+}
+
+
+.matchMaker-logo-container > p {
+  
+  font-size: 20px;
+  color:yellow;
+
+} 
+
+.yellowBar{
+  background-color:yellow;
+  height: 5px;
+  width:auto;
+}
+
+.underlineColor{
+  border-bottom: 3px solid yellow;
+
+}
+
+.grayBar{
+  background-color:lightgray;
+  height: 50px;
+  width:auto;
+}
+
+
+
+.grayBar>p{
+  padding-top:15px;
+  color:black;
+  display:flex;
+  justify-content:center;
+}
+
+
+.bigMatchContainer{
+  align-items:center;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg');
+  background-position:center;
+  background-size:cover;
+  display:flex;
+  justify-content: flex-end;
+  height: 600px;
+  padding: 30px;
+}
+
+.wallpaper{
+  
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  background-color: rgba(255,255,255,0.8);
+  width: 450px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.wallpaper >p{
+  
+  padding:40px;
+  font-weight:bold;
+}
+.wallpaper >p1{
+  padding-left: 40px;
+  margin-bottom:20px;
+  
+}
+
+.meetMatch > p{
+  margin-left:40px;
+  background-color:yellow;
+  padding:20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.threeSections{
+  display: flex;
+  padding:40px;
+
+}
+
+.boxes{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  font-weight:bold;
+ 
+}
+
+.CreateProfile{
+  padding-right:40px;
+  flex-direction:column;
+}
+
+.SignUpNow {
+  padding-left:200px;
+  padding-top:35px;
+  padding-bottom:35px;
+  
+}
+
+.SignUpNow >p{
+  
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:30px;
+  margin-left:30px;
+  margin-right:230px;
+  background-color: lightgray;
+}
+
+
+.FindDeveloper{
+  padding-right:40px;
+  flex-direction:column;
+}
+
+.StartSearch1{
+  padding-left:200px;
+  padding-top:35px;
+  padding-bottom:35px;
+  
+}
+
+.StartSearch1 >p {
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:30px;
+  margin-left:30px;
+  margin-right:205px;
+  background-color:lightgray;
+}
+
+.boxes >p{
+  padding-bottom: 20px;
+}
+
+.FindDesigner{
+  padding-right:40px;
+  flex-direction:column;
+}
+
+.StartSearch2{
+  padding-left:200px;
+  padding-top:35px;
+  padding-bottom:35px;
+}
+
+.StartSearch2 >p{
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:30px;
+  padding-right:30px;
+  margin-left:30px;
+  margin-right:205px;
+  background-color:lightgray;
+}
+
+.vertical1{
+  border-left: 2px solid gray;
+  height: 200px;
+  position:absolute;
+  left: 29.5%;
+}
+
+.vertical2{
+  border-left:2px solid gray;
+  height: 200px;
+  position:absolute;
+  left:60%;
+}
+
+.ending{
+  background-color:black;  
+  height:60px;
+}
+
+.ending>p{
+  padding-left:20px;
+  padding-top:20px;
+  color:white;
+}
+
+
+
+
+
+
+
+
+p2 {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather { font-family: 'Merriweather', serif; }
+      .oswald { font-family: 'Oswald', sans-serif; }
+        .lato { font-family: 'Lato', sans-serif; }
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
